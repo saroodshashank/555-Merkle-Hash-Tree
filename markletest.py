@@ -13,7 +13,7 @@ class Node:
 
     @staticmethod
     def hash(val: str) -> str:
-        return hashlib.sha256(val.encode('utf-8')).hexdigest()
+        return hashlib.sha1(val.encode('utf-8')).hexdigest()
     @staticmethod
     def file_sha_hash(file):
         with open(file, "rb") as f:
