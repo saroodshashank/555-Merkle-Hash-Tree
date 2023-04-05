@@ -1,0 +1,2 @@
+These deterministic algorithms are used for cryptographic key generation, digital signing,
+verification to protect data privacy.
